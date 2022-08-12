@@ -69,6 +69,7 @@ const initPreloader = () => {
       y: 250,
       stagger: 0.1,
       skewY: 20,
+      ease:'rubber.in',
     })
   }, 3000);
 
