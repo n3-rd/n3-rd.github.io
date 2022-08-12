@@ -4,7 +4,28 @@ import { gsap } from 'gsap';
 import "splitting/dist/splitting.css";
 import "splitting/dist/splitting-cells.css";
 import Splitting from "splitting";
+import Lenis from '@studio-freight/lenis'
 
+const initSmoothScroll = () => {
+  const lenis = new Lenis({
+    lerp: 0.1,
+    smooth: true,
+    direction: 'vertical',
+  })
+  
+  //get scroll value
+
+  
+  function raf() {
+    lenis.raf()
+    requestAnimationFrame(raf)
+  }
+  
+  requestAnimationFrame(raf)
+}
+
+
+initSmoothScroll();
 Splitting();
 themeChange();
 

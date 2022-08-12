@@ -15,6 +15,7 @@
     "vite": "^3.0.0"
   },
   "dependencies": {
+    "@studio-freight/lenis": "^0.1.13",
     "gsap": "^3.10.4",
     "splitting": "^1.0.6",
     "theme-change": "^2.2.0"
