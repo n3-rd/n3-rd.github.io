@@ -42,7 +42,7 @@ const initPreloader = () => {
     }
      })
      tl.from('.line__inner', {
-      duration: 0.5,
+      duration: 1,
       display: 'block',
       delay: 1,
       y: 250,
