@@ -1,6 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.cursor-pointed--active {
+  height: 60px;
+  width: 60px;
+  background-color: #fff;
+  opacity: 0.7;
+  filter: blur(3px);
+}
+
+a {
+  cursor: url("/open-link.svg"), auto !important;
+  transition: cursor 0.5s ease;
+}
+a:hover {
+  cursor: url("/open-link.svg"), auto !important;
+  transition: cursor 0.5s ease;
+}
+
 .font-display {
   font-family: "Ultra", serif;
 }
@@ -79,5 +96,51 @@
 @keyframes rotate {
   100% {
     transform: rotate(360deg);
+  }
+}
+.marquee {
+  --gap:9rem;
+  display: flex;
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  gap: var(--gap);
+}
+
+.marquee__content {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
+  gap: var(--gap);
+  -webkit-animation: scroll 10s linear infinite;
+          animation: scroll 10s linear infinite;
+}
+
+.small-gap {
+  --gap: 1rem;
+}
+
+.large-gap {
+  --gap: 9rem!important;
+}
+
+@-webkit-keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - var(--gap)));
   }
 }/*# sourceMappingURL=style.css.map */

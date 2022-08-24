@@ -1,107 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Metrophobic&family=Ultra&display=swap" rel="stylesheet">
-    <title>Godwin Jemegah</title>
-  </head>
 
-  <body class="bg-black text-white overflow-x-hidden">
-    <div id="app">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Metrophobic&family=Ultra&display=swap" rel="stylesheet">
 
-      <!-- preloader -->
-      <div
-        class="preloader h-screen w-screen bg-black flex fixed z-50 justify-center items-center"
-      >
-        <div class="preloader__inner">
-          <span class="loader flex"></span>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Primary Meta Tags -->
+  <title>Godwin Jemegah - Web Developer</title>
+  <meta name="title" content="Godwin Jemegah - Web Developer">
+  <meta name="description"
+    content="I am a web developer and designer based in the city of Lagos, Nigeria I create websites and web apps that are responsive, fast and accessible. with the latest and trusted web technology known to man :).">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://n3-rd.github.io">
+  <meta property="og:title" content="Godwin Jemegah - Web Developer">
+  <meta property="og:description"
+    content="I am a web developer and designer based in the city of Lagos, Nigeria I create websites and web apps that are responsive, fast and accessible. with the latest and trusted web technology known to man :).">
+  <meta property="og:image" content="https://i.ibb.co/K6FK485/localhost-5173-Nest-Hub.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://n3-rd.github.io">
+  <meta property="twitter:title" content="Godwin Jemegah - Web Developer">
+  <meta property="twitter:description"
+    content="I am a web developer and designer based in the city of Lagos, Nigeria I create websites and web apps that are responsive, fast and accessible. with the latest and trusted web technology known to man :).">
+  <meta property="twitter:image" content="https://i.ibb.co/K6FK485/localhost-5173-Nest-Hub.png">
+
+</head>
+
+<body class="bg-black text-white overflow-x-hidden" data-barba="wrapper">
+  <main class="home" id="app" data-barba="container" data-barba-namespace="home">
+
+    <!-- preloader -->
+    <div class="preloader prevent h-screen w-screen bg-black flex fixed z-50 justify-center items-center">
+      <div class="preloader__inner">
+        <span class="loader flex"></span>
+      </div>
+    </div>
+
+    <div
+      class="cursor-rounded z-50 hidden lg:block w-7 h-7 rounded-full border border-white absolute -translate-y-2 -translate-x-3">
+    </div>
+    <div class="cursor-pointed z-50 hidden lg:block w-2 h-2 bg-white rounded-full absolute"></div>
+
+    <!-- header -->
+    <div class="header h-12 fixed z-40 text-white mt-10 opacity-70 w-full font-body font-bold">
+      <div class="header__inner flex justify-between mx-12 lg:mx-32">
+        <div class="site-title">
+          Godwin
         </div>
+
+        <!-- d -->
+
+        <div class="site-nav">
+          <ul class="flex">
+            <li class="mr-4">
+              <a href="#about">About</a>
+            </li>
+            <li class="mr-4">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="mr-4">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+
       </div>
 
-      <!-- header -->
-      <div class="header h-12 fixed z-40 text-white mt-10 opacity-70 w-full font-body">
-        <div class="header__inner flex justify-between mx-12 lg:mx-32">
-          <div class="site-title">
-            Godwin
+
+    </div>
+
+    <div class="main h-screen bg-black text-white flex justify-center items-center">
+
+      <div class="main-text text-6xl md:text-9xl font-display">
+        <div class="main-word">
+          <div class="line overflow-hidden h-20 md:h-32 magic-hover">
+            <div class="line__inner relative z-20 main-text__1">HUMAN,</div>
           </div>
-
-          <!-- d -->
-
-          <div class="site-nav">
-            <ul class="flex">
-              <li class="mr-4">
-                <a href="#about">About</a>
-              </li>
-              <li class="mr-4">
-                <a href="#projects">Projects</a>
-              </li>
-              <li class="mr-4">
-                <a href="#contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-
+          <img src="/img.png" class="main-hovered-image w-[26%] absolute z-10 hidden" alt="" />
         </div>
-  
-        
-      </div>
 
-      <div
-        class="main h-screen bg-black text-white flex justify-center items-center"
-      >
-        <!-- <button data-set-theme="" data-act-class="ACTIVECLASS">light</button>
-<button data-set-theme="dark" data-act-class="ACTIVECLASS">dark</button> -->
-        <!-- <button data-set-theme="" data-act-class="ACTIVECLASS">light</button>
-<button data-set-theme="dark" data-act-class="ACTIVECLASS">dark</button> -->
-        <div class="main-text text-6xl md:text-9xl font-display">
-          <div class="main-word">
-            <div class="line overflow-hidden h-20 md:h-32">
-              <div class="line__inner relative z-20 main-text__1" >HUMAN,</div>
-            </div> 
-            <img
-              src="/img.png"
-              class="main-hovered-image w-[16%] absolute z-10 hidden"
-              alt=""
-            />
+        <div class="main-word">
+          <div class="line overflow-hidden h-20 md:h-32 magic-hover">
+            <div class="line__inner relative z-20 main-text__1">MEET</div>
           </div>
-
-          <div class="main-word">
-            <div class="line overflow-hidden h-20 md:h-32">
-              <div class="line__inner relative z-20 main-text__1" >MEET</div>
-            </div>
-            <img
-              src="/img2.png"
-              class="main-hovered-image w-[16%] absolute z-10 hidden"
-              alt=""
-            />
-          </div>
-
-          <div class="main-word">
-            <div class="line overflow-hidden h-20 md:h-32">
-              <div class="line__inner relative z-20 main-text__1" >GODWIN</div>
-            </div>
-            <img
-              src="/img1.png"
-              class="main-hovered-image w-[16%] absolute z-10 hidden"
-              alt=""
-            />
-          </div>
+          <img src="/img2.png" class="main-hovered-image w-[26%] absolute z-10 hidden" alt="" />
         </div>
-      </div>
 
-      <div class="description py-28">
-        <div class="description-text font-body mx-8 text-4xl lg:text-6xl lg:mx-20 opacity-80 skew-scroll">
-          I am a web developer and designer who creates awesome websites and
-          web apps that are fast and responsive
-          with the latest and trusted web technology known to man :). I also create native-like hybrid apps that
-          work on all devices with with Vanilla JavaScript and other frameworks.
+        <div class="main-word">
+          <div class="line overflow-hidden h-20 md:h-32 magic-hover">
+            <div class="line__inner relative z-20 main-text__1">GODWIN</div>
+          </div>
+          <img src="/img1.png" class="main-hovered-image w-[26%] absolute z-10 hidden" alt="" />
         </div>
       </div>
     </div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+    <div class="description py-28">
+      <div class="description-text font-body mx-8 text-4xl lg:text-6xl lg:mx-20 opacity-80 skew-scroll">
+        I am a web developer and designer based in the badass city of <span class="link"><a
+            href="https://en.wikipedia.org/wiki/Lagos" target="_blank" class="underline">Lagos, Nigeria</a></span>
+        I create websites and web apps that are responsive, fast and accessible.
+        with the latest and trusted web technology known to man :). I also create native-like hybrid apps that
+        work on all devices with with Vanilla JavaScript and other frameworks.
+      </div>
+    </div>
+
+    <div class="work-section py-40">
+      <h2 class="text-5xl md:text-8xl font-display text-center my-28">My <br>Work</h2>
+
+
+      <div class="projects">
+
+        <a href="/pages/felicia.html"
+          class="block project marquee text-4xl sm:small-gap lg:large-gap lg:text-9xl font-display py-14 list-none main-word">
+          <div class="marquee__content">
+            <li>Feliciã</li>
+            <li>Feliciã</li>
+            <li>Feliciã</li>
+          </div>
+
+          <div class="marquee__content" aria-hidden="true">
+            <li>Feliciã</li>
+            <li>Feliciã</li>
+            <li>Feliciã</li>
+          </div>
+
+          <img src="/img.png" class="main-hovered-image w-[26%] absolute z-10 hidden" alt="" />
+        </a>
+
+        <a href="/pages/felicia.html"
+          class="block project marquee text-4xl sm:small-gap lg:large-gap lg:text-9xl font-display py-14 list-none main-word">
+          <div class="marquee__content">
+            <li>Ajoke</li>
+            <li>Ajoke</li>
+            <li>Ajoke</li>
+          </div>
+
+          <div class="marquee__content" aria-hidden="true">
+            <li>Ajoke</li>
+            <li>Ajoke</li>
+            <li>Ajoke</li>
+          </div>
+
+          <img src="/img.png" class="main-hovered-image w-[26%] absolute z-10 hidden" alt="" />
+        </a>
+
+
+      </div>
+
+
+    </div>
+
+    <!-- </div> -->
+
+  </main>
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>

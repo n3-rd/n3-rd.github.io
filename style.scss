@@ -1,6 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+  // cursor: none;
+}
+
+.cursor-pointed--active{
+  height: 60px;
+  width: 60px;
+  background-color: #fff;
+  opacity: 0.7;
+  filter: blur(3px);
+}
+
+a{
+  cursor: url("/open-link.svg"), auto !important;
+  transition: cursor 0.5s ease;
+  &:hover{
+      cursor: url("/open-link.svg"), auto !important;
+      transition: cursor 0.5s ease;
+  }
+}
 
 .font-display{
     font-family: 'Ultra', serif;
@@ -93,3 +113,31 @@
     100% { transform: rotate(360deg) }
   }
       
+
+  .marquee{
+    --gap:9rem;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: var(--gap);
+}
+
+.marquee__content{
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: var(--gap);
+    animation: scroll 10s linear infinite;
+}
+
+.small-gap{
+    --gap: 1rem;
+}
+.large-gap{
+    --gap: 9rem!important;
+}
+@keyframes scroll {
+    0% { transform: translateX(0) }
+    100% { transform: translateX(calc(-100% - var(--gap))) }
+}
