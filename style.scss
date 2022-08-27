@@ -128,14 +128,14 @@ a{
     justify-content: space-around;
     min-width: 100%;
     gap: var(--gap);
-    animation: scroll 10s linear infinite;
+    animation: scroll 20s linear infinite;
 }
 
 .small-gap{
     --gap: 1rem;
 }
 .large-gap{
-    --gap: 9rem!important;
+    --gap: 4rem!important;
 }
 @keyframes scroll {
     0% { transform: translateX(0) }

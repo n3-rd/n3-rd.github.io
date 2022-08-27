@@ -115,8 +115,8 @@ a:hover {
   justify-content: space-around;
   min-width: 100%;
   gap: var(--gap);
-  -webkit-animation: scroll 10s linear infinite;
-          animation: scroll 10s linear infinite;
+  -webkit-animation: scroll 20s linear infinite;
+          animation: scroll 20s linear infinite;
 }
 
 .small-gap {
@@ -124,7 +124,7 @@ a:hover {
 }
 
 .large-gap {
-  --gap: 9rem!important;
+  --gap: 4rem!important;
 }
 
 @-webkit-keyframes scroll {
