@@ -5,6 +5,7 @@ body{
   // cursor: none;
   color: #fff;
   overflow-x: hidden;
+  cursor: none;
 }
 
 .cursor-pointed--active{
@@ -13,6 +14,12 @@ body{
   background-color: #fff;
   opacity: 0.7;
   filter: blur(3px);
+}
+.cursor-rounded{
+  transition: all 0.4s linear;
+}
+.cursor-rounded, .cursor-pointed{
+  pointer-events: none;
 }
 
 a{

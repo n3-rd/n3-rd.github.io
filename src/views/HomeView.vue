@@ -5,12 +5,14 @@ import MarqueeSection from '../components/MarqueeSection.vue';
 import Preloader from '../components/Preloader.vue';
 import Header from '../components/Header.vue';
 import Footer from '../components/Footer.vue';
+import Cursor from '../components/Cursor.vue';
 
 </script>
 
 <template>
   <main class="bg-black">
     <Preloader/>
+    <Cursor/>
     <Header/>
     <Hero/>
     <Description/>
