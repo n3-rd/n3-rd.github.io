@@ -8,16 +8,31 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
+<<<<<<< HEAD
 dist
 dist-ssr
 *.local
 todo.txt
+=======
+.DS_Store
+dist
+dist-ssr
+coverage
+*.local
+.vscode
+
+/cypress/videos/
+/cypress/screenshots/
+>>>>>>> 2faebe2 (refactored to a vue project)
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
+<<<<<<< HEAD
 .DS_Store
+=======
+>>>>>>> 2faebe2 (refactored to a vue project)
 *.suo
 *.ntvs*
 *.njsproj
