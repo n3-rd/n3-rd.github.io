@@ -26,6 +26,15 @@
 
   })
 
+//  move the cursor on scroll
+    window.addEventListener('scroll', (e) => {
+        cursorRounded.style.top = e.pageY + 'px';
+        cursorRounded.style.left = e.pageX + 'px';
+        cursorPointed.style.top = e.pageY + 'px';
+        cursorPointed.style.left = e.pageX + 'px';
+
+    })
+
   const magicHover = document.querySelectorAll('.magic-hover');
   magicHover.forEach((hover) => {
     hover.addEventListener('mouseenter', () => {

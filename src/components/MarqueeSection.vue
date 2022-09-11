@@ -50,6 +50,16 @@
 "image": "/project-images/monroe-rene.png",
                         link: 'https://n3rd-modella.netlify.app/'
                     },
+                    {
+                        "name": "Ajoke",
+"image": "https://i.ibb.co/fDsrTbp/Screenshot-from-2022-09-11-16-49-37.png",
+                        link: 'https://n3rd-ajoke.netlify.app/'
+                    },
+                    {
+                        "name": "Black & Bold",
+"image": "https://i.ibb.co/t3N9vwn/Screenshot-from-2022-09-11-16-52-45.png",
+                        link: 'https://n3rd-blacknbold.netlify.app/'
+                    },
 
 
                 ]
