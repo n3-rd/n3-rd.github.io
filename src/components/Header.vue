@@ -1,7 +1,7 @@
 <template>
       <div class="header h-12 fixed z-40 text-white mt-10 opacity-70 w-full font-body font-bold">
-      <div class="header__inner flex justify-between mx-12 lg:mx-32">
-        <div class="site-title">
+      <div class="header__inner flex justify-end md:justify-between mx-12 lg:mx-32">
+        <div class="site-title hidden md:block">
           Godwin
         </div>
 
