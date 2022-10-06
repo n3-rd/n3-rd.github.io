@@ -1,0 +1,26 @@
+{
+  "name": "godwin-jemegah",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@waaark/luge": "0.6.10-beta",
+    "gsap": "^3.11.3",
+    "splitting": "^1.0.6",
+    "theme-change": "^2.2.0",
+    "vidim": "^1.0.2",
+    "vue": "^3.2.38",
+    "vue-router": "^4.1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.17",
+    "sass": "^1.55.0",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.0.9"
+  }
+}
