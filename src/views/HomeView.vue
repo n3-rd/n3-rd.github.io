@@ -1,10 +1,12 @@
 <script setup>
 import HomeScreen from '../components/HomeScreen.vue';
+import About from '../components/About.vue';
 
 </script>
 
 <template>
-  <main class="px-9 dark:bg-black dark:text-white bg-white text-black">
+  <main class="px-9">
 <HomeScreen/>
+<About/>
   </main>
 </template>

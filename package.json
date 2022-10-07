@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@waaark/luge": "0.6.10-beta",
+    "circletype": "^2.3.0",
     "gsap": "^3.11.3",
     "splitting": "^1.0.6",
     "theme-change": "^2.2.0",
