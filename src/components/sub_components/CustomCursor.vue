@@ -17,3 +17,12 @@
   border-radius: 50%;
 }
 </style>
+
+<script>
+import luge from '@waaark/luge'
+luge.settings({
+  cursor: {
+   inertia: 0.9
+  },
+})
+</script>

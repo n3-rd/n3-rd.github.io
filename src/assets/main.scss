@@ -18,3 +18,6 @@
     opacity: .7;
     mix-blend-mode: color-burn;
   }
+  #app{
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
