@@ -1,15 +1,6 @@
 <template>
   <div>
-    <!-- back -->
-    <router-link to="/">
-      <div
-        class="top-5 left-0 h-16 pl-7 uppercase font-bold text-5xl fixed"
-        data-lg-scroll
-        data-lg-animate
-      >
-        Back
-      </div>
-    </router-link>
+    <ComponentHeader />
 
     <h1 class="text-[7rem] font-serif text-center py-11">My Story</h1>
     <div class="px-9 text-5xl leading-[4rem]">
@@ -39,12 +30,14 @@
 
 <script>
 import luge from "@waaark/luge";
+import ComponentHeader from "../components/sub_components/ComponentHeader.vue";
 
 export default {
   name: "AboutView",
   mounted() {
     luge.lifecycle.refresh();
   },
+  components: { ComponentHeader },
 };
 </script>
 
