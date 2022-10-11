@@ -2,8 +2,8 @@
   <div>
     <ComponentHeader />
 
-    <h1 class="text-[7rem] font-serif text-center py-11">My Story</h1>
-    <div class="px-9 text-5xl leading-[4rem]">
+    <h1 class="text-5xl md:text-[7rem] font-serif text-center py-11">My Story</h1>
+    <div class="px-9 text-base md:text-5xl leading-[27.2px] md:leading-[4rem]">
       <p>
         Hi, I'm Godwin Jemegah, I'm from
         <a href="https://en.wikipedia.org/wiki/Edo_State">Edo State</a> in the South-South

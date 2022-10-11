@@ -1,7 +1,7 @@
 <template>
   <div class="w-screen flex justify-between items-center py-4 fixed">
     <div class="header-logo text-4xl font-black font-display opacity-70">G.</div>
-    <div class="header-links flex justify-between w-40">
+    <div class="header-links flex justify-end pr-8 md:justify-between w-40">
       <div class="font-black cursor-pointer" data-toggle-theme="dark,light" data-lg-hover>
         Dark/Light
       </div>

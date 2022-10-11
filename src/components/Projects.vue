@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-20">
+  <div class="pt-20 px-[2rem]">
     <div class="text-[3rem] font-serif text-black dark:text-white uppercase">
       Featured Work
     </div>
@@ -13,11 +13,11 @@
     <div v-for="project in projects" :key="project.name" data-lg-hover>
       <a :href="project.link" target="_blank">
         <div
-          class="project py-4 border-b-2 border-b-black dark:border-b-white uppercase text-[9rem] font-serif text-black dark:text-white hover:text-[#282828] dark:hover:text-white transition-all duration-300 ease-in-out flex justify-between items-center cursor-pointer"
+          class="project py-4 border-b-2 border-b-black dark:border-b-white uppercase text-[2rem] md:text-[9rem] font-serif text-black dark:text-white hover:text-[#282828] dark:hover:text-white transition-all duration-300 ease-in-out flex justify-between items-center cursor-pointer"
           :data-project-image="[project.image]"
         >
           <div>{{ project.name }}</div>
-          <div class="project-desc font-sans text-[1rem] w-4rem">
+          <div class="project-desc font-sans text-[0.6rem] md:text-[1rem] w-4rem">
             {{ project.desc }}
           </div>
         </div>
@@ -26,14 +26,14 @@
 
     <router-link to="/projects">
       <div
-        class="text-[5rem] font-serif text-black dark:text-white uppercase"
+        class="text-[4rem] md:text-[5rem] font-serif text-black dark:text-white uppercase"
         data-lg-hover
       >
         More +
       </div>
     </router-link>
 
-    <div class="h-screen flex justify-center items-center">
+    <div class="h-[50vh] md:h-screen flex justify-center items-center">
       <div
         class="dark:block hidden"
         data-lg-scroll
@@ -168,7 +168,10 @@ export default {
     };
   },
   mounted() {
-    showProjectImage();
+    // check if device is not mobile
+    if (window.innerWidth > 768) {
+      showProjectImage();
+    }
   },
 };
 </script>
