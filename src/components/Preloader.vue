@@ -7,13 +7,13 @@
       <div class="preloader-bar-inner h-full w-10 bg-white"></div>
     </div> -->
 
-    <div class="circle-loader-outer text-[2rem]">
+    <div class="circle-loader-outer text-[1.6rem] md:text-[2rem]">
       Loading Loading Loading Loading Loading Loading Loading Loading Loading Loading
     </div>
-    <div class="circle-loader-inner text-[1.6rem] absolute opacity-95">
+    <div class="circle-loader-inner text-[1.3rem] md:text-[1.6rem] absolute opacity-95">
       Loading Loading Loading Loading Loading Loading Loading Loading Loading Loading
     </div>
-    <div class="circle-loader-inner-2 text-[1.2rem] absolute opacity-80">
+    <div class="circle-loader-inner-2 text-[0.9rem] md:text-[1.2rem] absolute opacity-80">
       Loading Loading Loading Loading Loading Loading Loading Loading Loading Loading
     </div>
   </div>
