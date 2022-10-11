@@ -7,6 +7,7 @@ specifiers:
   '@waaark/luge': 0.6.10-beta
   autoprefixer: ^10.4.12
   circletype: ^2.3.0
+  fontfaceobserver: ^2.3.0
   gsap: ^3.11.3
   postcss: ^8.4.17
   sass: ^1.55.0
@@ -22,6 +23,7 @@ dependencies:
   '@studio-freight/lenis': 0.2.9
   '@waaark/luge': 0.6.10-beta
   circletype: 2.3.0
+  fontfaceobserver: 2.3.0
   gsap: 3.11.3
   splitting: 1.0.6
   theme-change: 2.2.0
@@ -1034,6 +1036,10 @@ packages:
   /flatted/3.2.7:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
     dev: true
+
+  /fontfaceobserver/2.3.0:
+    resolution: {integrity: sha512-6FPvD/IVyT4ZlNe7Wcn5Fb/4ChigpucKYSvD6a+0iMoLn2inpo711eyIcKjmDtE5XNcgAkSH9uN/nfAeZzHEfg==}
+    dev: false
 
   /fraction.js/4.2.0:
     resolution: {integrity: sha512-MhLuK+2gUcnZe8ZHlaaINnQLl0xRIGRfcGk2yl8xoQAfHrSsL3rYu6FCmBdkdbhc9EPlwyGHewaRsvwRMJtAlA==}

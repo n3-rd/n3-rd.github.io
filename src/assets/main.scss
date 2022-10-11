@@ -21,3 +21,11 @@
   #app{
     transition: background-color 0.5s ease, color 0.5s ease;
   }
+  .lg-preloader--my-preloader {
+    opacity: 1;
+    transition: opacity 0.6s linear;
+
+    &.is-hidden {
+      opacity: 0;
+    }
+  }
