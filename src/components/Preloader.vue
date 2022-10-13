@@ -2,11 +2,6 @@
   <div
     class="w-screen h-screen flex justify-center items-center flex-col z-[999] fixed bg-[#b3b3b3] dark:bg-black"
   >
-    <!-- <div class="preloader-text text-4xl">Loading...</div>
-    <div class="preloader-bar w-[57vw] h-2 bg-slate-400 my-12">
-      <div class="preloader-bar-inner h-full w-10 bg-white"></div>
-    </div> -->
-
     <div class="circle-loader-outer text-[1.6rem] md:text-[2rem]">
       Loading Loading Loading Loading Loading Loading Loading Loading Loading Loading
     </div>
@@ -38,12 +33,6 @@ export default {
     const circleInner2 = document.querySelector(".circle-loader-inner-2");
     const circleType3 = new CircleType(circleInner2);
     circleType3.radius(100);
-
-    // tl.to(".preloader-bar-inner", {
-    //   duration: 3,
-    //   width: "100%",
-    //   ease: "power4.out",
-    // });
   },
 };
 </script>
@@ -67,7 +56,6 @@ export default {
     transform: rotate(360deg);
   }
 }
-// rotate backwards
 @keyframes rotate-back {
   0% {
     transform: rotate(0deg);

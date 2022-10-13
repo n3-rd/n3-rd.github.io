@@ -62,8 +62,6 @@ export default {
   mounted() {
     Splitting();
     letterHoverEffect();
-
-    const titleText = document.querySelector(".title-text");
   },
 };
 </script>
