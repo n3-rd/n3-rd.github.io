@@ -6,7 +6,7 @@
     <div class="absolute z-20 hidden project-image select-none pointer-events-none">
       <div class="main-image-container h-[25rem] w-[20rem] rellax -rotate-12">
         <div
-          class="main-image__inner project-image__inner w-full h-full bg-[url(/img/me.jpg)] bg-center bg-cover"
+          class="main-image__inner project-image__inner w-full h-full bg-[url(/img/me.webp)] bg-center bg-cover"
         ></div>
       </div>
     </div>
@@ -143,25 +143,25 @@ export default {
         {
           name: "Amelia",
           desc: "Photography website",
-          image: "/img/1.jpg",
+          image: "/img/1.webp",
           link: "https://n3rd-amelia.netlify.app/",
         },
         {
           name: "Lvly Studio",
           desc: "Design Studio Agency",
-          image: "/img/2.jpg",
+          image: "/img/2.webp",
           link: "https://lvlystudio.netlify.app/",
         },
         {
           name: "Yemisi",
           desc: "Personal Website",
-          image: "/img/3.jpg",
+          image: "/img/3.webp",
           link: "https://yemisi.netlify.app/",
         },
         {
           name: "Ajoke",
           desc: "Name explanation",
-          image: "/img/4.jpg",
+          image: "/img/4.webp",
           link: "https://n3rd-ajoke.netlify.app/",
         },
       ],

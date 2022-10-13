@@ -15,7 +15,7 @@
         class="main-image-container h-[52vh] w-[82vw] md:h-[25rem] md:w-[20rem] rellax"
       >
         <div
-          class="main-image__inner w-full h-full bg-[url(/img/me.jpg)] bg-center bg-cover"
+          class="main-image__inner w-full h-full bg-[url(/img/me.webp)] bg-center bg-cover"
         ></div>
       </div>
     </div>
