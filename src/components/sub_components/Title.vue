@@ -1,13 +1,13 @@
 <template>
   <div class="h-[100vh] w-screen flex justify-evenly md:justify-center items-center">
-    <div
-      class="title-text font-display text-[19vw] font-black tracking-[3px] lg:-tracking-[11.9px] uppercase z-30 dark:mix-blend-exclusion mix-blend-multiply"
+    <h1
+      class="block title-text font-display text-[19vw] font-black tracking-[3px] lg:-tracking-[11.9px] uppercase z-30 dark:mix-blend-exclusion mix-blend-multiply"
       data-lg-scroll
       data-lg-scroll-animate="{'x': ['0%', '100%'], 'font-weight': ['900', '100']}"
       data-splitting
     >
       Godwin
-    </div>
+    </h1>
     <div
       class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-20"
     >
