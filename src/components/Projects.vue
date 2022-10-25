@@ -102,7 +102,6 @@ const showProjectImage = () => {
 
       // make the image follow the cursor and still stay in the center of the screen
       const cursor = document.querySelector(".lg-cursor-pointer");
-      console.log(cursor);
       const cursorX = cursor.getBoundingClientRect().x;
       const cursorY = cursor.getBoundingClientRect().y;
       const cursorWidth = cursor.getBoundingClientRect().width;

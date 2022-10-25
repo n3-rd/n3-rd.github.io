@@ -1,6 +1,7 @@
 <script>
 import { RouterLink, RouterView } from "vue-router";
 import Lenis from "@studio-freight/lenis";
+import Noise from "./components/sub_components/Noise.vue";
 
 const lenis = new Lenis({
   duration: 1.2,
@@ -35,8 +36,6 @@ const preloadFonts = () => {
   // check if all fonts are loaded
   Promise.all(fonts.map((font) => font.load())).then(() => {
     setTimeout(() => {
-      // document.querySelector(".preloader").classList.add("hidden");
-
       const tl = gsap.timeline();
       tl.to(".preloader", {
         duration: 2,
@@ -52,7 +51,7 @@ const preloadFonts = () => {
 
 export default {
   name: "App",
-  components: { CustomCursor, Preloader },
+  components: { CustomCursor, Preloader, Noise },
   mounted() {
     luge.lifecycle.refresh();
     preloadFonts();
@@ -61,6 +60,7 @@ export default {
 </script>
 
 <template>
+  <Noise />
   <Preloader class="preloader" />
   <CustomCursor />
   <RouterView />
