@@ -140,10 +140,10 @@ export default {
     return {
       projects: [
         {
-          name: "Amelia",
-          desc: "Photography website",
+          name: "Afrobeats",
+          desc: "Music Genre",
           image: "/img/1.webp",
-          link: "https://n3rd-amelia.netlify.app/",
+          link: "https://n3rd-afrobeats.netlify.app/",
         },
         {
           name: "Lvly Studio",
@@ -158,10 +158,10 @@ export default {
           link: "https://yemisi.netlify.app/",
         },
         {
-          name: "Ajoke",
-          desc: "Name explanation",
+          name: "Lemon",
+          desc: "Agency Demo",
           image: "/img/4.webp",
-          link: "https://n3rd-ajoke.netlify.app/",
+          link: "https://n3rd-lemon.netlify.app/",
         },
       ],
     };

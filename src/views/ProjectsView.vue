@@ -34,6 +34,16 @@ export default {
     return {
       projects: [
         {
+          name: "Afrobeats",
+          desc: "Music Genre",
+          link: "https://n3rd-afrobeats.netlify.app/",
+        },
+        {
+          name: "Lemon",
+          desc: "Agency Demo",
+          link: "https://n3rd-lemon.netlify.app/",
+        },
+        {
           name: "Amelia",
           desc: "Photography website",
           link: "https://n3rd-amelia.netlify.app/",
