@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: grotta;
+    src: url(/fonts/Grotta-Medium.otf);
+}
+@font-face {
+    font-family: Morgenwalsh;
+    src: url(/fonts/Morgenwalsh.otf);
+}
+
+body{
+    font-family: grotta;
+    font-size: 1.5rem;
+    color: #000;
+    background-color: #fff;
+}
+h1, h2, h3, h4, h5, h6, .morgenwalsh{
+    font-family: Morgenwalsh;
+}
