@@ -2,6 +2,17 @@
 	import { FontsLoader } from 'fonts-loader';
 
 	import { onMount } from 'svelte';
+	const randomFacts = [
+		'I love South park',
+		'I think I hate basketball',
+		'GGMU',
+		"Trap is 'meh'",
+		'Eminem is GOATed',
+		'Lagos is so stressful',
+		'Java is synonymous with hell',
+		'Steady grinding',
+		'Bulaba'
+	];
 	onMount(() => {
 		const fontsLoader = new FontsLoader([
 			{
@@ -32,7 +43,8 @@
 </script>
 
 <div
-	class="preloader bg-black h-screen w-screen flex justify-center items-center fixed z-[999] text-white"
+	class="preloader bg-black h-screen w-screen flex justify-center items-center flex-col fixed z-[999] text-white"
 >
 	<div class="preloader-numbers morgenwalsh text-5xl">0%</div>
+	<div class="preloader-fact">{randomFacts[Math.floor(Math.random() * randomFacts.length)]}</div>
 </div>
