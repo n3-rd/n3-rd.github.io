@@ -73,7 +73,12 @@
 			window.open(url, '_blank');
 		};
 
-		swiper.on('click', (e) => {
+		// swiper.on('click', (e) => {
+		// 	console.log(e.clickedSlide.firstChild.dataset.url);
+		// 	openUrl(e.clickedSlide.firstChild.dataset.url);
+		// });
+
+		swiper.on('doubleClick', (e) => {
 			console.log(e.clickedSlide.firstChild.dataset.url);
 			openUrl(e.clickedSlide.firstChild.dataset.url);
 		});
