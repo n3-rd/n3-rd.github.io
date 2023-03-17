@@ -15,23 +15,23 @@ const projects = [
     },
     {
         id: 3,
-        image: '/img/3.jpg',
-        title: 'title 3',
-        url: '/',
+        image: '/img/afrobeats.jpg',
+        title: 'afrobeats',
+        url: 'https://n3rd-afrobeats.netlify.app/',
         description: 'description 3'
     },
     {
         id: 4,
-        image: '/img/1.jpg',
-        title: 'title 4',
-        url: '/',
+        image: '/img/yemisi.jpg',
+        title: 'Yemisi',
+        url: 'https://yemisi.netlify.app/',
         description: 'description 4'
     },
     {
         id: 5,
-        image: '/img/2.jpg',
-        title: 'title 5',
-        url: '/',
+        image: '/img/mojomusic.jpg',
+        title: 'mojomusic',
+        url: 'https://mojomusic.netlify.app/',
         description: 'description 5'
     },
     {

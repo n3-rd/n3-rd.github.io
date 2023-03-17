@@ -56,9 +56,11 @@
 			openUrl(e.clickedSlide.firstChild.dataset.url);
 		});
 
-		swiper.on('afterInit', function () {
+		swiper.on('init', function () {
 			makeInactiveSlidesOpaque();
+			console.log('swiper initialized');
 		});
+		// swiper.on("")
 		swiper.on('slideChangeTransitionEnd', function () {
 			makeInactiveSlidesOpaque();
 			projectTitle = document.querySelector('.swiper-slide-active img').dataset.title;
@@ -69,6 +71,8 @@
 			audio.volume = 0.3;
 			audio.play();
 		});
+
+		swiper.init();
 	});
 </script>
 
