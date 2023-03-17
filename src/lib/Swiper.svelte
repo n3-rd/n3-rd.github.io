@@ -5,65 +5,11 @@
 	import 'swiper/css';
 	import 'swiper/css/navigation';
 	import 'swiper/css/pagination';
-	let projectTitle = '';
+	import projects from '../lib/projects.js';
 	import { onMount } from 'svelte';
 
-	const swiperItems = [
-		{
-			id: 1,
-			image: '/img/1.jpg',
-			title: 'title 1',
-			description: 'description 1'
-		},
-		{
-			id: 2,
-			image: '/img/1.jpg',
-			title: 'title 2',
-			description: 'description 2'
-		},
-		{
-			id: 3,
-			image: '/img/1.jpg',
-			title: 'title 3',
-			description: 'description 3'
-		},
-		{
-			id: 4,
-			image: '/img/1.jpg',
-			title: 'title 4',
-			description: 'description 4'
-		},
-		{
-			id: 5,
-			image: '/img/1.jpg',
-			title: 'title 5',
-			description: 'description 5'
-		},
-		{
-			id: 6,
-			image: '/img/1.jpg',
-			title: 'title 6',
-			description: 'description 6'
-		},
-		{
-			id: 7,
-			image: '/img/1.jpg',
-			title: 'title 7',
-			description: 'description 7'
-		},
-		{
-			id: 8,
-			image: '/img/1.jpg',
-			title: 'title 8',
-			description: 'description 8'
-		},
-		{
-			id: 9,
-			image: '/img/1.jpg',
-			title: 'title 9',
-			description: 'description 9'
-		}
-	];
+	let projectTitle = '';
+	const swiperItems = projects;
 
 	onMount(() => {
 		// init Swiper:
@@ -106,7 +52,6 @@
 		swiper.on('slideChangeTransitionEnd', function () {
 			makeInactiveSlidesOpaque();
 			projectTitle = document.querySelector('.swiper-slide-active img').dataset.title;
-			console.log(document.querySelector('.swiper-slide-active img').dataset.title);
 		});
 		swiper.on('slideChange', function () {
 			var audio = new Audio('/sound/click.mp3');
