@@ -5,7 +5,12 @@ import { vitePreprocess } from '@sveltejs/kit/vite';
 const config = {
   kit: {
     // hydrate the <div id="svelte"> element in src/app.html
-    adapter: adapter(),
+    adapter: adapter({
+      pages: 'docs',
+    }),
+  },
+  paths: {
+    base: process.env.NODE_ENV === "production" ? "/sveltekit-gh-pages" : "",
   },
   preprocess: vitePreprocess()
 };

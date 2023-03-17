@@ -5,11 +5,14 @@ import adapter from "@sveltejs/adapter-static";
 
 export default defineConfig({
   plugins: [sveltekit()],
+  build: {
+    outDir: '/docs'
+  },
   kit: {
     adapter: adapter(),
-    paths: {
-      base: process.env.NODE_ENV === "production" ? "/sveltekit-gh-pages" : "",
-    },
+    // paths: {
+    //   base: process.env.NODE_ENV === "production" ? "/sveltekit-gh-pages" : "",
+    // },
   },
 
 });
