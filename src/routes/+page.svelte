@@ -10,4 +10,6 @@
 	<Noise />
 	<Preloader />
 	<Swiper />
+	<div class="absolute bottom-3 left-3 text-lg">Drag or swipe</div>
+	<div class="absolute bottom-3 right-3 text-lg">Tap and hold to visit url</div>
 </div>
