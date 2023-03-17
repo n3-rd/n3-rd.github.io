@@ -66,7 +66,7 @@
 	<!-- put text in middle of screen -->
 
 	<div
-		class="absolute top-0 left-0 w-full h-full z-10 pointer-events-none flex justify-center items-center"
+		class="absolute top-0 left-0 w-full h-full z-10 pointer-events-none flex justify-center items-center mix-blend-overlay"
 	>
 		<div class="Morgenwalsh text-[6rem]">{projectTitle}</div>
 	</div>

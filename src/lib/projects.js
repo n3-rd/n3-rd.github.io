@@ -7,13 +7,13 @@ const projects = [
     },
     {
         id: 2,
-        image: '/img/1.jpg',
+        image: '/img/2.jpg',
         title: 'title 2',
         description: 'description 2'
     },
     {
         id: 3,
-        image: '/img/1.jpg',
+        image: '/img/3.jpg',
         title: 'title 3',
         description: 'description 3'
     },
@@ -25,13 +25,13 @@ const projects = [
     },
     {
         id: 5,
-        image: '/img/1.jpg',
+        image: '/img/2.jpg',
         title: 'title 5',
         description: 'description 5'
     },
     {
         id: 6,
-        image: '/img/1.jpg',
+        image: '/img/3.jpg',
         title: 'title 6',
         description: 'description 6'
     },
@@ -43,13 +43,13 @@ const projects = [
     },
     {
         id: 8,
-        image: '/img/1.jpg',
+        image: '/img/2.jpg',
         title: 'title 8',
         description: 'description 8'
     },
     {
         id: 9,
-        image: '/img/1.jpg',
+        image: '/img/3.jpg',
         title: 'title 9',
         description: 'description 9'
     }
