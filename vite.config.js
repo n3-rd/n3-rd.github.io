@@ -1,14 +1,8 @@
 
-// https://vitejs.dev/config/
+import { sveltekit } from '@sveltejs/kit/vite';
+import { defineConfig } from 'vite';
+
 export default defineConfig({
-  plugins: [vue()],
-  root: '',
-  build: {
-    outDir: 'docs'
-  },
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  }
-})
+  plugins: [sveltekit()]
+});
+
