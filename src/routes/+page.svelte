@@ -1,7 +1,9 @@
 <script>
 	import Preloader from '../lib/Preloader.svelte';
+	import Swiper from '../lib/Swiper.svelte';
 </script>
 
-<Preloader />
-
-<h1 class="text-3xl font-bold underline z-[10]">Hello world!</h1>
+<div class="bg-black">
+	<Preloader />
+	<Swiper />
+</div>
