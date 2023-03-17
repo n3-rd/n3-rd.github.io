@@ -27,27 +27,22 @@
 			mousewheel: true,
 			keyboard: true,
 			// Navigation arrows
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev'
-			},
+			navigation: false,
+
 			// make slides per view = 1 on mobile breakpoints
 			breakpoints: {
 				// when window width is >= 320px
 				320: {
 					slidesPerView: 1,
 					navigation: false
-					//   spaceBetween: 20
 				},
 				// when window width is >= 480px
 				480: {
 					slidesPerView: 1
-					//   spaceBetween: 30
 				},
 				// when window width is >= 640px
 				640: {
 					slidesPerView: 3
-					// spaceBetween: 8
 				}
 			}
 		});
@@ -125,10 +120,6 @@
 				</div>
 			{/each}
 		</div>
-
-		<!-- If we need navigation buttons -->
-		<div class="swiper-button-prev" />
-		<div class="swiper-button-next" />
 	</div>
 </div>
 
