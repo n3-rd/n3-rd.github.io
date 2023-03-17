@@ -35,6 +35,7 @@
 
 		const makeInactiveSlidesOpaque = () => {
 			const activeSlide = document.querySelector('.swiper-slide-active');
+
 			const slides = document.querySelectorAll('.swiper-slide');
 			slides.forEach((slide) => {
 				if (slide !== activeSlide) {
@@ -45,6 +46,15 @@
 				}
 			});
 		};
+
+		const openUrl = (url) => {
+			window.open(url, '_blank');
+		};
+
+		swiper.on('click', (e) => {
+			console.log(e.clickedSlide.firstChild.dataset.url);
+			openUrl(e.clickedSlide.firstChild.dataset.url);
+		});
 
 		swiper.on('afterInit', function () {
 			makeInactiveSlidesOpaque();
@@ -66,9 +76,9 @@
 	<!-- put text in middle of screen -->
 
 	<div
-		class="absolute top-0 left-0 w-full h-full z-10 pointer-events-none flex justify-center items-center mix-blend-overlay"
+		class="absolute top-0 left-0 w-full h-full z-10 pointer-events-none flex justify-center items-center "
 	>
-		<div class="Morgenwalsh text-[6rem]">{projectTitle}</div>
+		<div class="Morgenwalsh text-[6rem] uppercase text-white">{projectTitle}</div>
 	</div>
 
 	<!-- Slider main container -->
@@ -83,6 +93,7 @@
 						alt="item.title"
 						class="w-full h-full object-center object-cover"
 						data-title={item.title}
+						data-url={item.url}
 					/>
 				</div>
 			{/each}
