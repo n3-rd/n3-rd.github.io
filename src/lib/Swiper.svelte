@@ -19,7 +19,7 @@
 			// Optional parameters
 			direction: 'horizontal',
 			loop: true,
-			slidesPerView: 3,
+			slidesPerView: 1,
 			spaceBetween: 8,
 			centeredSlides: true,
 			grabCursor: true,
@@ -30,6 +30,25 @@
 			navigation: {
 				nextEl: '.swiper-button-next',
 				prevEl: '.swiper-button-prev'
+			},
+			// make slides per view = 1 on mobile breakpoints
+			breakpoints: {
+				// when window width is >= 320px
+				320: {
+					slidesPerView: 1,
+					navigation: false
+					//   spaceBetween: 20
+				},
+				// when window width is >= 480px
+				480: {
+					slidesPerView: 1
+					//   spaceBetween: 30
+				},
+				// when window width is >= 640px
+				640: {
+					slidesPerView: 3
+					// spaceBetween: 8
+				}
 			}
 		});
 
@@ -40,7 +59,7 @@
 			slides.forEach((slide) => {
 				if (slide !== activeSlide) {
 					slide.style.opacity = '0.5';
-					slide.style.padding = '-100px';
+					// slide.style.padding = '-100px';
 				} else {
 					slide.style.opacity = '1';
 				}
@@ -80,9 +99,11 @@
 	<!-- put text in middle of screen -->
 
 	<div
-		class="absolute top-0 left-0 w-full h-full z-10 pointer-events-none flex justify-center items-center "
+		class="absolute top-0 left-0 w-full h-full z-10 pointer-events-none flex justify-center items-center bg-none "
 	>
-		<div class="Morgenwalsh text-[6rem] uppercase text-white">{projectTitle}</div>
+		<div class="Morgenwalsh text-[3rem] uppercase text-white fixed md:text-[4rem] lg:text-[6rem]">
+			{projectTitle}
+		</div>
 	</div>
 
 	<!-- Slider main container -->
@@ -116,7 +137,7 @@
 	}
 	.swiper-slide {
 		opacity: 0.5;
-		width: 25rem;
+		/* width: 25rem; */
 		transition: opacity 0.5s;
 		/* height: 25rem; */
 	}
