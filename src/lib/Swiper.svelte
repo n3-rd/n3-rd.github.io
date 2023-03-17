@@ -5,6 +5,7 @@
 	import 'swiper/css';
 	import 'swiper/css/navigation';
 	import 'swiper/css/pagination';
+	let projectTitle = '';
 	import { onMount } from 'svelte';
 
 	const swiperItems = [
@@ -104,6 +105,8 @@
 		});
 		swiper.on('slideChangeTransitionEnd', function () {
 			makeInactiveSlidesOpaque();
+			projectTitle = document.querySelector('.swiper-slide-active img').dataset.title;
+			console.log(document.querySelector('.swiper-slide-active img').dataset.title);
 		});
 		swiper.on('slideChange', function () {
 			var audio = new Audio('/sound/click.mp3');
@@ -120,7 +123,7 @@
 	<div
 		class="absolute top-0 left-0 w-full h-full z-10 pointer-events-none flex justify-center items-center"
 	>
-		<div class="Morgenwalsh text-[6rem]">Lvly Studio</div>
+		<div class="Morgenwalsh text-[6rem]">{projectTitle}</div>
 	</div>
 
 	<!-- Slider main container -->
