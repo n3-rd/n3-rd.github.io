@@ -5,7 +5,7 @@
 	export const prerender = true;
 </script>
 
-<div class="bg-black">
+<div class="bg-black select-none">
 	<Preloader />
 	<Header />
 	<Swiper />
