@@ -62,6 +62,12 @@
 				}
 			});
 		};
+		const changeProjectTitle = (title) => {
+			projectTitle = title;
+		};
+
+		makeInactiveSlidesOpaque();
+		changeProjectTitle(document.querySelector('.swiper-slide-active img').dataset.title);
 
 		const openUrl = (url) => {
 			window.open(url, '_blank');
@@ -79,7 +85,8 @@
 		// swiper.on("")
 		swiper.on('slideChangeTransitionEnd', function () {
 			makeInactiveSlidesOpaque();
-			projectTitle = document.querySelector('.swiper-slide-active img').dataset.title;
+			changeProjectTitle(document.querySelector('.swiper-slide-active img').dataset.title);
+			// projectTitle = ;
 		});
 		swiper.on('slideChange', function () {
 			var audio = new Audio('/sound/click.mp3');
