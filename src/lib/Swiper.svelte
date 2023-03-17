@@ -59,9 +59,11 @@
 			slides.forEach((slide) => {
 				if (slide !== activeSlide) {
 					slide.style.opacity = '0.5';
+					slide.style.filter = 'sepia(100%)';
 					// slide.style.padding = '-100px';
 				} else {
 					slide.style.opacity = '1';
+					slide.style.filter = 'none';
 				}
 			});
 		};

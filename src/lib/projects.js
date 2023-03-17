@@ -36,9 +36,9 @@ const projects = [
     },
     {
         id: 6,
-        image: '/img/3.jpg',
-        title: 'title 6',
-        url: '/',
+        image: '/img/playlist2022.png',
+        title: 'Playlist 2022',
+        url: 'https://n3rd-playlist-2022.netlify.app/#/playlist',
         description: 'description 6'
     },
     {

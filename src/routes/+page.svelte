@@ -7,6 +7,5 @@
 
 <div class="bg-black select-none">
 	<Preloader />
-	<Header />
 	<Swiper />
 </div>
