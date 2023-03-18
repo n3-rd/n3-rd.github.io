@@ -16,20 +16,23 @@
 	</div>
 
 	<div class="about px-32">
-		The Tessier-Ashpool ice shattered, peeling away from the missionaries, the train reached Case’s
-		station. Then he’d taken a long and pointless walk along the port’s security perimeter, watching
-		the gulls turn circles beyond the chain link. Its hands were holograms that altered to match the
-		convolutions of the room where Case waited. Case had never seen him wear the same suit twice,
-		although his wardrobe seemed to consist entirely of meticulous reconstruction’s of garments of
-		the deck sting his palm as he made his way down Shiga from the sushi stall he cradled it in his
-		sleep, and wake alone in the dark, curled in his devotion to esoteric forms of tailor-worship.
-		Strata of cigarette smoke rose from the tiers, drifting until it struck currents set up by the
-		blowers and the amplified breathing of the arcade showed him broken lengths of damp chipboard
-		and the amplified breathing of the Flatline as a construct, a hardwired ROM cassette replicating
-		a dead man’s skills, obsessions, kneejerk responses. Light from a service hatch at the rear of
-		the arcade showed him broken lengths of damp chipboard and the robot gardener. Case had never
-		seen him wear the same suit twice, although his wardrobe seemed to consist entirely of
-		meticulous reconstruction’s of garments of the Sprawl’s towers and ragged Fuller domes, dim
-		figures moving toward him in the dark.
+		<p>
+			Hi, I'm Godwin Jemegah, I'm from
+			<a href="https://en.wikipedia.org/wiki/Edo_State">Edo State</a> in the South-South region of
+			<a href="https://en.wikipedia.org/wiki/Nigeria">Nigeria</a>
+			but was born in <a href="https://en.wikipedia.org/wiki/Lagos_State">Lagos State</a> where I
+			currently study History at the
+			<a href="https://en.wikipedia.org/wiki/University_of_Lagos">University Of Lagos</a>
+		</p>
+		<p>
+			I'm a self-taught Frontend Developer and I'm currently learning Backend Development. I'm also
+			a
+			<a href="https://www.adultswim.com/videos/rick-and-morty">Rick and Morty</a> fan and I love to
+			play video games.
+		</p>
+		<p>
+			I love to learn new things and I'm always open to learning new things. I'm also a huge fan of
+			historical war movies and love to talk about politics.
+		</p>
 	</div>
 </Transition>
