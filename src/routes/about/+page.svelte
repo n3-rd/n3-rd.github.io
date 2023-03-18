@@ -1,6 +1,12 @@
 <!-- src/routes/about.svelte -->
 <script>
 	import Transition from '../../lib/Transition.svelte';
+	import smoothScroll from '../../lib/smoothScroll';
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		smoothScroll();
+	});
 </script>
 
 <Transition>
