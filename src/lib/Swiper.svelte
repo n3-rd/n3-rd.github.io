@@ -53,11 +53,11 @@
 			const slides = document.querySelectorAll('.swiper-slide');
 			slides.forEach((slide) => {
 				if (slide !== activeSlide) {
-					slide.style.opacity = '0.5';
+					// slide.style.opacity = '0.5';
 					slide.style.filter = 'sepia(100%)';
 					// slide.style.padding = '-100px';
 				} else {
-					slide.style.opacity = '1';
+					// slide.style.opacity = '1';
 					slide.style.filter = 'none';
 				}
 			});
@@ -110,7 +110,9 @@
 	<div
 		class="absolute top-0 left-0 w-full h-full z-10 pointer-events-none flex justify-center items-center bg-none "
 	>
-		<div class="Morgenwalsh text-[3rem] uppercase text-white fixed md:text-[4rem] lg:text-[6rem]">
+		<div
+			class="Morgenwalsh text-[3rem] uppercase text-white fixed md:text-[4rem] lg:text-[6rem] morgenwalsh"
+		>
 			{projectTitle}
 		</div>
 	</div>

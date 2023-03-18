@@ -5,6 +5,7 @@ specifiers:
   '@sveltejs/adapter-static': 1.0.0-next.50
   '@sveltejs/kit': ^1.5.0
   autoprefixer: ^10.4.14
+  custom-cursor: ^2.2.3
   eslint: ^8.28.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
@@ -31,6 +32,7 @@ devDependencies:
   '@sveltejs/adapter-static': 1.0.0-next.50_@sveltejs+kit@1.8.3
   '@sveltejs/kit': 1.8.3_svelte@3.55.1+vite@4.1.4
   autoprefixer: 10.4.14_postcss@8.4.21
+  custom-cursor: 2.2.3
   eslint: 8.34.0
   eslint-config-prettier: 8.6.0_eslint@8.34.0
   eslint-plugin-svelte3: 4.0.0_dbthnr4b2bdkhyiebwn7su3hnq
@@ -593,6 +595,10 @@ packages:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==}
     engines: {node: '>=4'}
     hasBin: true
+    dev: true
+
+  /custom-cursor/2.2.3:
+    resolution: {integrity: sha512-Dw8Z23xn+4FLUfeKB2w7tUnlXTaDEDavdeDQomhrGPdAb9/oXUIRaawv3TKAv/IrsndgxoV72td55ZEH/3bzxQ==}
     dev: true
 
   /debug/4.3.4:
