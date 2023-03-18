@@ -9,6 +9,6 @@
 	<Noise />
 	<Preloader />
 	<Swiper />
-	<div class="absolute bottom-3 left-3 text-lg">Drag or swipe</div>
-	<div class="absolute bottom-3 right-3 text-lg">Double click to visit url</div>
+	<div class="absolute bottom-3 left-3 text-lg z-50">Drag or swipe</div>
+	<div class="absolute bottom-3 right-3 text-lg z-50">Double click to visit url</div>
 </div>
