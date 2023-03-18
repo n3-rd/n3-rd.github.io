@@ -38,6 +38,7 @@
 			if (count === 100) {
 				clearInterval(interval);
 				setTimeout(() => {
+					document.querySelector('.preloader').style.opacity = '0';
 					document.querySelector('.preloader').classList.add('hidden');
 				}, 1000);
 			}
@@ -46,7 +47,7 @@
 </script>
 
 <div
-	class="preloader bg-black h-screen w-screen flex justify-center items-center flex-col fixed z-[999] text-white"
+	class="preloader bg-black h-screen w-screen flex justify-center items-center flex-col fixed z-[999] text-white "
 >
 	<div class="preloader-numbers morgenwalsh text-5xl">0%</div>
 	<div class="preloader-fact capitalize">
