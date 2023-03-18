@@ -148,7 +148,4 @@
 		transition: opacity 0.5s;
 		/* height: 25rem; */
 	}
-	.swiper-slide-active {
-		opacity: 1 !important;
-	}
 </style>
