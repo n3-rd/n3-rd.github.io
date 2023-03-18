@@ -4,14 +4,17 @@
 	import { onMount } from 'svelte';
 	const randomFacts = [
 		'I love South park',
-		'I think I hate basketball',
+		"I think I hate basketball, 'think'",
 		'GGMU',
 		"Trap is 'meh'",
 		'Eminem is GOATed',
-		'Lagos is so stressful',
+		'Lagos is a mad place',
 		'Java is synonymous with hell',
 		'Steady grinding',
-		'Bulaba'
+		'Bulaba',
+		'I love historical movies lol',
+		'Saving Private Ryan is golden',
+		'To the moon!'
 	];
 	onMount(() => {
 		const fontsLoader = new FontsLoader([
@@ -46,5 +49,7 @@
 	class="preloader bg-black h-screen w-screen flex justify-center items-center flex-col fixed z-[999] text-white"
 >
 	<div class="preloader-numbers morgenwalsh text-5xl">0%</div>
-	<div class="preloader-fact">{randomFacts[Math.floor(Math.random() * randomFacts.length)]}</div>
+	<div class="preloader-fact capitalize">
+		{randomFacts[Math.floor(Math.random() * randomFacts.length)]}
+	</div>
 </div>
