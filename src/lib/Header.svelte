@@ -8,5 +8,5 @@
 		<div class="about"><a href="{base}/about">About</a></div>
 		<div class="github">Github</div>
 	</div>
-	<div class="menu">menu</div>
+	<div class="menu md:hidden">menu</div>
 </div>
