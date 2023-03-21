@@ -47,7 +47,7 @@
 </script>
 
 <div
-	class="preloader bg-black h-screen w-screen flex justify-center items-center flex-col fixed z-[999] text-white "
+	class="preloader bg-[#0f0f0f] h-screen w-screen flex justify-center items-center flex-col fixed z-[999] text-white "
 >
 	<div class="preloader-numbers morgenwalsh text-5xl">0%</div>
 	<div class="preloader-fact capitalize">
