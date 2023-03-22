@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
 </script>
 
-<div class="h-4 pt-7 px-10 w-screen flex justify-between items-center fixed text-white">
+<div class="h-4 pt-7 px-10 w-screen flex justify-between items-center fixed text-white z-50">
 	<div class="header-title"><a href="/">G.</a></div>
 	<div class="header-links flex justify-between items-center gap-7">
 		<div class="about"><a href="{base}/about">About</a></div>
