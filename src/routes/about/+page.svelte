@@ -12,10 +12,10 @@
 <Transition>
 	<div class="w-screen h-[70vh] flex justify-center items-center">
 		<div class="my-image w-[20rem] h-[24rem] bg-[url(/img/me.webp)] bg-center bg-cover z-10" />
-		<div class="my-name text-[8rem] morgenwalsh absolute z-20">GODWIN</div>
+		<div class="my-name text-[4rem] md:text-[8rem] morgenwalsh absolute z-20">GODWIN</div>
 	</div>
 
-	<div class="about px-32">
+	<div class="about px-4 md:px-32">
 		<p>
 			Hi, I'm Godwin Jemegah, I'm from
 			<a href="https://en.wikipedia.org/wiki/Edo_State">Edo State</a> in the South-South region of
