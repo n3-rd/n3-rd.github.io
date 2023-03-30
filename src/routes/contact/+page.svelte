@@ -21,7 +21,7 @@
 	<div class="h-screen w-screen flex justify-center items-center">
 		<div class="contact-links morgenwalsh text-[5rem] text-[#b3b3b3]">
 			<a
-				href="/"
+				href="mailto:godwinjdayo@gmail.com"
 				target="_blank"
 				rel="noreferrer"
 				class="block link cursor-pointer hover:text-white">Email</a
@@ -33,7 +33,7 @@
 				class="block link cursor-pointer hover:text-white">Github</a
 			>
 			<a
-				href="/"
+				href="https://www.linkedin.com/in/godwin-jemegah-759866203/"
 				target="_blank"
 				rel="noreferrer"
 				class="block link cursor-pointer hover:text-white">LinkedIn</a
