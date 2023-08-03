@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@studio-freight/lenis':
     specifier: ^0.2.28
@@ -23,13 +27,13 @@ dependencies:
 devDependencies:
   '@sveltejs/adapter-auto':
     specifier: ^2.0.0
-    version: 2.0.0(@sveltejs/kit@1.8.3)
+    version: 2.0.0(@sveltejs/kit@1.15.2)
   '@sveltejs/adapter-static':
     specifier: 1.0.0-next.50
-    version: 1.0.0-next.50(@sveltejs/kit@1.8.3)
+    version: 1.0.0-next.50(@sveltejs/kit@1.15.2)
   '@sveltejs/kit':
-    specifier: ^1.5.0
-    version: 1.8.3(svelte@3.55.1)(vite@4.1.4)
+    specifier: ^1.15.2
+    version: 1.15.2(svelte@3.55.1)(vite@4.1.4)
   autoprefixer:
     specifier: ^10.4.14
     version: 10.4.14(postcss@8.4.21)
@@ -308,6 +312,10 @@ packages:
     resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}
     dev: true
 
+  /@jridgewell/sourcemap-codec@1.4.15:
+    resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
+    dev: true
+
   /@nodelib/fs.scandir@2.1.5:
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
     engines: {node: '>= 8'}
@@ -340,25 +348,25 @@ packages:
       virtual-scroll: 2.2.1
     dev: false
 
-  /@sveltejs/adapter-auto@2.0.0(@sveltejs/kit@1.8.3):
+  /@sveltejs/adapter-auto@2.0.0(@sveltejs/kit@1.15.2):
     resolution: {integrity: sha512-b+gkHFZgD771kgV3aO4avHFd7y1zhmMYy9i6xOK7m/rwmwaRO8gnF5zBc0Rgca80B2PMU1bKNxyBTHA14OzUAQ==}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
     dependencies:
-      '@sveltejs/kit': 1.8.3(svelte@3.55.1)(vite@4.1.4)
+      '@sveltejs/kit': 1.15.2(svelte@3.55.1)(vite@4.1.4)
       import-meta-resolve: 2.2.1
     dev: true
 
-  /@sveltejs/adapter-static@1.0.0-next.50(@sveltejs/kit@1.8.3):
+  /@sveltejs/adapter-static@1.0.0-next.50(@sveltejs/kit@1.15.2):
     resolution: {integrity: sha512-xZKBmiwFGW8nrH8+eysUAAo9XrtApI81q0m67y1bexVw8IY7/x741b6VEklNM7BZ7js0Mi2x+yCkHpOee8UZKQ==}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0-next.587
     dependencies:
-      '@sveltejs/kit': 1.8.3(svelte@3.55.1)(vite@4.1.4)
+      '@sveltejs/kit': 1.15.2(svelte@3.55.1)(vite@4.1.4)
     dev: true
 
-  /@sveltejs/kit@1.8.3(svelte@3.55.1)(vite@4.1.4):
-    resolution: {integrity: sha512-32tiLy5PPpt2lquK2p53/5wR+ghAXw0HymIBEezmwmwtzx7Xf36xw3RG3fDYQ9gyzon89T+JRweXgAv/qhhvSQ==}
+  /@sveltejs/kit@1.15.2(svelte@3.55.1)(vite@4.1.4):
+    resolution: {integrity: sha512-rLNxZrjbrlPf8AWW8GAU4L/Vvu17e9v8EYl7pUip7x72lTft7RcxeP3z7tsrHpMSBBxC9o4XdKzFvz1vMZyXZw==}
     engines: {node: ^16.14 || >=18}
     hasBin: true
     requiresBuild: true
@@ -372,7 +380,7 @@ packages:
       devalue: 4.3.0
       esm-env: 1.0.0
       kleur: 4.1.5
-      magic-string: 0.29.0
+      magic-string: 0.30.2
       mime: 3.0.0
       sade: 1.8.1
       set-cookie-parser: 2.5.1
@@ -1232,11 +1240,11 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /magic-string@0.29.0:
-    resolution: {integrity: sha512-WcfidHrDjMY+eLjlU+8OvwREqHwpgCeKVBUpQ3OhYYuvfaYCUgcbuBzappNzZvg/v8onU3oQj+BYpkOJe9Iw4Q==}
+  /magic-string@0.30.2:
+    resolution: {integrity: sha512-lNZdu7pewtq/ZvWUp9Wpf/x7WzMTsR26TWV03BRZrXFsv+BI6dy8RAiKgm1uM/kyR0rCfUcqvOlXKG66KhIGug==}
     engines: {node: '>=12'}
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.14
+      '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
   /make-dir@3.1.0:
