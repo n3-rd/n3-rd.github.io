@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.body{
+body{
     font-family: 'Panchang', sans-serif;
+    background-color: #000000!important;
+    color: #ffffff;
 }

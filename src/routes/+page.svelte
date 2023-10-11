@@ -1,5 +1,7 @@
 <script>
-	import Preloader from "$lib/Preloader.svelte";
+	import Hero from "$lib/Hero.svelte";
+import Preloader from "$lib/Preloader.svelte";
 
 </script>
-<Preloader/>
+<!-- <Preloader/> -->
+<Hero/>
