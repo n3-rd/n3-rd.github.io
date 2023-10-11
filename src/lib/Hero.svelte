@@ -1,4 +1,6 @@
 <script>
+	import { gsap } from 'gsap';
+	import { onMount } from 'svelte';
 	let wght = 400;
 	let ital = 0;
 
@@ -6,11 +8,25 @@
 		wght = w;
 		ital = i;
 	};
+
+	onMount(() => {
+		gsap.from('.hero-line-inner', {
+			duration: 1,
+			delay: 1,
+			y: 223,
+			skewY: 10,
+			ease: 'power4.out',
+			stagger: 0.1
+		});
+	});
 </script>
 
 <div class="w-screen h-screen flex flex-col justify-center gap-14 px-12">
 	<div class="greet text-[8vw] font-bold">
-		~/ $ echo <br /> Web Developer.
+		<div class="hero-line h-fit overflow-hidden"><div class="hero-line-inner">~/ $ echo</div></div>
+		<div class="hero-line h-fit overflow-hidden">
+			<div class="hero-line-inner">Web Developer.</div>
+		</div>
 	</div>
 	<div class="cta w-full flex items-center">
 		<div class="projects-button w-1/2">
