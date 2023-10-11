@@ -29,6 +29,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@studio-freight/lenis": "^1.0.26",
 		"gsap": "^3.12.2"
 	}
 }
