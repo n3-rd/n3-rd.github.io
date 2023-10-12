@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    /* scroll-behavior: smooth; */
+}
 body{
     font-family: 'Panchang', sans-serif;
     background-color: #000000!important;
     color: #ffffff;
+    overflow-x: hidden;
 }

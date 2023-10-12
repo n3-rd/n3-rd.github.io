@@ -30,17 +30,17 @@
 	</div>
 	<div class="cta w-full flex items-center">
 		<div class="projects-button w-1/2">
-			<button
+			<a
+				href="/#work"
 				class="px-12 py-4 border-2 border-[#313131] text-3xl rounded-full hover:bg-white hover:text-black transition-all duration-300"
 				style="font-variation-settings: 'wght' {wght}, 'ital' {ital};"
 				on:mouseenter={() => increaseWght(800, 12)}
-				on:mouseleave={() => increaseWght(400, 0)}>Work</button
+				on:mouseleave={() => increaseWght(400, 0)}>Work</a
 			>
 		</div>
 		<div class="about w-1/2">
-			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore iusto nemo fugit deleniti
-			soluta magni nostrum perspiciatis voluptatem eligendi libero eius sit, eveniet explicabo
-			assumenda vero recusandae magnam animi sed.
+			Web developer currently based in Lagos with an eye for cool design and a passion for creating
+			beautiful, functional and sometimes unconventional websites.
 		</div>
 	</div>
 </div>
