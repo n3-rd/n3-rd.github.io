@@ -1,4 +1,5 @@
 <script>
+	import Contact from '$lib/Contact.svelte';
 	import Hero from '$lib/Hero.svelte';
 	import Preloader from '$lib/Preloader.svelte';
 	import Work from '$lib/Work.svelte';
@@ -7,3 +8,4 @@
 <!-- <Preloader/> -->
 <Hero />
 <Work />
+<Contact />
