@@ -5,7 +5,7 @@
 	import Work from '$lib/Work.svelte';
 </script>
 
-<!-- <Preloader/> -->
+<Preloader />
 <Hero />
 <Work />
 <Contact />

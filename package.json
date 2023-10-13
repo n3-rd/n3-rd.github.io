@@ -30,6 +30,7 @@
 	"type": "module",
 	"dependencies": {
 		"@studio-freight/lenis": "^1.0.26",
+		"fontfaceobserver": "^2.3.0",
 		"gsap": "^3.12.2"
 	}
 }
