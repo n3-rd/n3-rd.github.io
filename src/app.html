@@ -2,12 +2,39 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+		<link rel="manifest" href="/icons/site.webmanifest" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link
 			href="https://api.fontshare.com/v2/css?f[]=boxing@400&f[]=satoshi@1&display=swap"
 			rel="stylesheet"
 		/>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-LMG05BZPGN"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag('js', new Date());
+
+			gtag('config', 'G-LMG05BZPGN');
+		</script>
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org/",
+				"@type": "WebSite",
+				"name": "Godwin Jemegah",
+				"url": "https://n3-rd.github.io/",
+				"potentialAction": {
+					"@type": "SearchAction",
+					"target": "https://n3-rd.github.io/{search_term_string}",
+					"query-input": "required name=search_term_string"
+				}
+			}
+		</script>
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">

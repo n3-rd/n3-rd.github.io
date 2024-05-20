@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      image-promise:
+        specifier: ^7.0.1
+        version: 7.0.1
       lenis:
         specifier: ^1.0.45
         version: 1.0.45
@@ -885,6 +888,9 @@ packages:
   ignore@5.3.1:
     resolution: {integrity: sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==}
     engines: {node: '>= 4'}
+
+  image-promise@7.0.1:
+    resolution: {integrity: sha512-399HJHce1d3aEz4EYXLU4MUgUjX0gO0Bewu8mY4iLYItpNpBWLSQkevbYRPDViyISsL6K2bJiLadhxGCctRIOg==}
 
   import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
@@ -2417,6 +2423,8 @@ snapshots:
   hey-listen@1.0.8: {}
 
   ignore@5.3.1: {}
+
+  image-promise@7.0.1: {}
 
   import-fresh@3.3.0:
     dependencies:

@@ -36,6 +36,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"image-promise": "^7.0.1",
 		"lenis": "^1.0.45",
 		"lucide-svelte": "^0.378.0",
 		"motion": "^10.17.0"
