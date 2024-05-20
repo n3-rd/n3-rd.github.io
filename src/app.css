@@ -2,13 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-body{
-font-family: 'Satoshi', sans-serif;
+body {
+	font-family: 'Satoshi', sans-serif;
 }
 
-.display{
-font-family: 'Boxing', sans-serif;
+.display {
+	font-family: 'Boxing', sans-serif;
+}
 
+::-webkit-scrollbar {
+	width: 0px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+	opacity: 0.5;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
 }

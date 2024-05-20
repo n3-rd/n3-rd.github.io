@@ -37,6 +37,7 @@
 	"type": "module",
 	"dependencies": {
 		"lenis": "^1.0.45",
+		"lucide-svelte": "^0.378.0",
 		"motion": "^10.17.0"
 	}
 }
