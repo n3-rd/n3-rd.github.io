@@ -5,7 +5,8 @@
 	import PrimaryTags from '$lib/head/PrimaryTags.svelte';
 	import IconsManifest from '$lib/head/IconsManifest.svelte';
 	import GSiteverification from '$lib/head/GSiteverification.svelte';
-	import { loadAllImages } from '$lib/loadImages';
+	import { imagesLoaded, loadAllImages } from '$lib/loadImages';
+	import Preloader from '$lib/components/Preloader.svelte';
 
 	onMount(() => {
 		const lenis = new Lenis();
@@ -28,6 +29,10 @@
 	<PrimaryTags />
 </svelte:head>
 
-<slot></slot>
+{#if $imagesLoaded}
+	<slot></slot>
+{:else}
+	<Preloader />
+{/if}
 
 <style></style>
