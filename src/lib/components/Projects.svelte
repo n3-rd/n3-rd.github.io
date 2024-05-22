@@ -48,7 +48,7 @@
 			description: 'Model landing page',
 			tech: ['Vuejs', 'GSAP', 'TailwindCSS'],
 			links: {
-				website: 'https://ohun.vercel.app'
+				website: 'https://yemisi.netlify.app/'
 			},
 			image: '/img/yemisi.png'
 		},
@@ -57,7 +57,7 @@
 			description: 'Spotify playlist catalogue',
 			tech: ['Svelte', 'SpotifyAPI', 'TailwindCSS'],
 			links: {
-				website: 'https://ohun.vercel.app'
+				website: 'https://playlist-2023.vercel.app/'
 			},
 			image: '/img/playlist-2023.png'
 		},
@@ -66,7 +66,7 @@
 			description: 'Afrobeats showcase website',
 			tech: ['Vuejs', 'TailwindCSS'],
 			links: {
-				website: 'https://ohun.vercel.app'
+				website: 'https://n3rd-afrobeats.netlify.app/p'
 			},
 			image: '/img/afrobeats.png'
 		}
